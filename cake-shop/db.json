@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Pera",
+      "email": "peraperic@pera.com",
+      "password": "asdf1234"
+    },
+    {
+      "username": "Nevena",
+      "email": "ndddd@gmail.com",
+      "password": "Kovacevic123",
+      "id": 2
+    }
+  
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "./img/sweets-1.jpeg",
+      "name": "Sweet Item ",
+      "price": "$5"
+    },
+    {
+      "id": 2,
+      "img": "./img/cupcake-1.jpeg",
+      "name": "Cupcake Item",
+      "price": "$5"
+    },
+    {
+      "id": 3,
+      "img": "./img/cake-1.jpeg",
+      "name": "Cake Item",
+      "price": "$5"
+    },
+    {
+      "id": 4,
+      "img": "./img/doughnut-1.jpeg",
+      "name": "Dougnut Item",
+      "price": "$5"
+    },
+    {
+      "id": 5,
+      "img": "./img/sweets-2.jpeg",
+      "name": "Sweet Item ",
+      "price": "$10"
+    },
+    {
+      "id": 6,
+      "img": "./img/cupcake-2.jpeg",
+      "name": "Cupcake Item",
+      "price": "$10"
+    },
+    {
+      "id": 7,
+      "img": "./img/cake-2.jpeg",
+      "name": "Cake Item",
+      "price": "$10"
+    },
+    {
+      "id": 8,
+      "img": "./img/doughnut-2.jpeg",
+      "name": "Dougnut Item",
+      "price": "$10"
+    },
+    {
+      "id": 9,
+      "img": "./img/sweets-3.jpeg",
+      "name": "Sweet Item ",
+      "price": "$15"
+    },
+    {
+      "id": 10,
+      "img": "./img/cupcake-3.jpeg",
+      "name": "Cupcake Item",
+      "price": "$15"
+    },
+    {
+      "id": 11,
+      "img": "./img/cake-3.jpeg",
+      "name": "Cake Item",
+      "price": "$15"
+    },
+    {
+      "id": 12,
+      "img": "./img/doughnut-3.jpeg",
+      "name": "Dougnut Item",
+      "price": "$15"
+    }
+  ]
+}

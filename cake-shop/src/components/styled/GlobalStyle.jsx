@@ -18,5 +18,7 @@ a {
 a:hover {
   text-decoration: none;
 }
-
+button{
+  font-family: "Kaushan Script", cursive;
+}
 `

@@ -5,6 +5,7 @@ position:relative;
 width:100%;
 margin:auto;
 padding-top: 20px;
+padding-bottom: 30px;
 
 img {
     width:100%;
@@ -36,6 +37,7 @@ h2 {
     left: 10px;
     position: absolute;
     }
+
     :after {
     content: "";
     display: block;
@@ -47,11 +49,14 @@ h2 {
     right: 10px;
     bottom: 10px;
     position: absolute;
-}
-span {
+    }
+    span{
         color: #ef7998;
     }
+} 
 
-}
+.indicators{
+        margin-top:-20px!important;
+    }
 
 `

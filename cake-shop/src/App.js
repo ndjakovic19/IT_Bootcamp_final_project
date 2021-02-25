@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <GlobalStyle />
         <StyledHeader>
-          <div className="container">
+          <div className="container spikes">
             <div className="row">
               <p className="phone-info">+123 456 789</p>
               <div className="login">

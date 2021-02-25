@@ -1,13 +1,15 @@
 import Product from './Product'
-import { Container } from './styled/StyledStore'
+import { StyledProducts} from './styled/StyledProducts'
 
 const Products = ({ products }) => {
 
     return (
         <>
-            <Container>
+            <StyledProducts>
+                <div className="row">
                 {products.map(product => <Product key={product.id} product={product} />)}
-            </Container>
+                </div>  
+            </StyledProducts>
         </>
     )
 }

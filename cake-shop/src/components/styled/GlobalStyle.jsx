@@ -9,16 +9,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 body{
-  font-family: "Kaushan Script", cursive;
-  color:black;
+    font-family: "Kaushan Script", cursive;
+    color:black;
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 button{
-  font-family: "Kaushan Script", cursive;
+    font-family: "Kaushan Script", cursive;
 }
 `

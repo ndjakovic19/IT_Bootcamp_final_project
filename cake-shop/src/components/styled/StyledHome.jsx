@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHome = styled.div`
-position:relative;
-width:100%;
-margin:auto;
-padding-top: 20px;
-padding-bottom: 30px;
+    position:relative;
+    width:100%;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
 img {
     width:100%;

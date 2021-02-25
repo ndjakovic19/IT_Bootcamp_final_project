@@ -21,4 +21,8 @@ a:hover {
 button{
     font-family: "Kaushan Script", cursive;
 }
+li{
+    text-decoration: none;
+    list-style:none;
+}
 `

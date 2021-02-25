@@ -7,6 +7,7 @@ import Register from './components/Register'
 import Store from './components/Store'
 import { StyledHeader } from './components/styled/StyledHeader'
 import { GlobalStyle } from './components/styled/GlobalStyle'
+import Footer from './components/Footer'
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -64,6 +65,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
+      <Footer/>
     </>
   );
 };

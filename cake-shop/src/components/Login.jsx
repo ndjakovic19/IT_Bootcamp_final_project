@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useHistory } from "react-router-dom"
 import { getAllUsers } from "../service"
 import { Link } from "react-router-dom"
-import {StyledInput,StyledFormWrapper,StyledForm,StyledButton} from './styled/StyledLogin'
+import StyledLogin from './styled/StyledLogin'
 
 
 
@@ -17,15 +17,16 @@ const history = useHistory()
     return (
         <>
 
-        <StyledFormWrapper>
-        <StyledForm>
+        <StyledLogin>
+        <form className="form">
         <h2>Login</h2>
+        
         <label htmlFor = "username">Username: </label>
-        <StyledInput type= 'text' name = "username" onChange = {(e)=>setUsername(e.target.value)}/>
+        <input type= 'text' name = "username" onChange = {(e)=>setUsername(e.target.value)}/>
         <label htmlFor = "email">Password: </label>
-        <StyledInput type= 'password' name = "email" onChange = {(e)=>setPassword(e.target.value)}/>
+        <input type= 'password' name = "email" onChange = {(e)=>setPassword(e.target.value)}/>
 
-        <StyledButton  onClick= {()=> {
+        <button  onClick= {()=> {
             getAllUsers().then(res =>{
                 let user = res.data.find(el=> el.username === username && el.password === password )
                 if(user){
@@ -36,13 +37,13 @@ const history = useHistory()
                     console.warn('Neispravni podaci');  
                 }
             })
-        }}>Login</StyledButton>
-        {/* <button onClick={()=> history.push('/register')}>Register</button> */}
+        }}>Login</button>
+
         <div>
             <Link to='/register'>Not registered?</Link>
         </div>
-        </StyledForm>
-        </StyledFormWrapper>
+        </form>
+        </StyledLogin>
 
         </>
     ) 

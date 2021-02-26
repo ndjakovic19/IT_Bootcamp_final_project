@@ -34,73 +34,73 @@
   "products": [
     {
       "id": 1,
-      "img": "./img/sweets-1.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379335/Cake-shop/sweets-1_omuszn.jpg",
       "name": "Sweet Item ",
       "price": "$5"
     },
     {
       "id": 2,
-      "img": "./img/cupcake-1.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379257/Cake-shop/cupcake-1_jbvfp5.jpg",
       "name": "Cupcake Item",
       "price": "$5"
     },
     {
       "id": 3,
-      "img": "./img/cake-1.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379216/Cake-shop/cake-1_tzkhhw.jpg",
       "name": "Cake Item",
       "price": "$5"
     },
     {
       "id": 4,
-      "img": "./img/doughnut-1.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379295/Cake-shop/doughnut-1_ick9k6.jpg",
       "name": "Dougnut Item",
       "price": "$5"
     },
     {
       "id": 5,
-      "img": "./img/sweets-2.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379345/Cake-shop/sweets-2_it27iv.jpg",
       "name": "Sweet Item ",
       "price": "$10"
     },
     {
       "id": 6,
-      "img": "./img/cupcake-2.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379267/Cake-shop/cupcake-2_f7v6nl.jpg",
       "name": "Cupcake Item",
       "price": "$10"
     },
     {
       "id": 7,
-      "img": "./img/cake-2.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379226/Cake-shop/cake-2_vse8oq.jpg",
       "name": "Cake Item",
       "price": "$10"
     },
     {
       "id": 8,
-      "img": "./img/doughnut-2.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379303/Cake-shop/doughnut-2_zzh83q.jpg",
       "name": "Dougnut Item",
       "price": "$10"
     },
     {
       "id": 9,
-      "img": "./img/sweets-3.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379354/Cake-shop/sweets-3_rvgzdm.jpg",
       "name": "Sweet Item ",
       "price": "$15"
     },
     {
       "id": 10,
-      "img": "./img/cupcake-3.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379279/Cake-shop/cupcake-3_cko4es.jpg",
       "name": "Cupcake Item",
       "price": "$15"
     },
     {
       "id": 11,
-      "img": "./img/cake-3.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379241/Cake-shop/cake-3_v0wcsb.jpg",
       "name": "Cake Item",
       "price": "$15"
     },
     {
       "id": 12,
-      "img": "./img/doughnut-3.jpeg",
+      "img": "https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614379316/Cake-shop/doughnut-3_xxjamb.jpg",
       "name": "Dougnut Item",
       "price": "$15"
     }

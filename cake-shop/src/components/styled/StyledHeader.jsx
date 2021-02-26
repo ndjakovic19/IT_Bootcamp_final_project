@@ -126,7 +126,7 @@ export const StyledHeader = styled.header`
   }
 
   .btn {
-      background-image: url("../img/search-icon.png");
+      background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381789/Cake-shop/search-icon_klhkl0.png");
       background-repeat: no-repeat;
       display: block;
       width: 20px;

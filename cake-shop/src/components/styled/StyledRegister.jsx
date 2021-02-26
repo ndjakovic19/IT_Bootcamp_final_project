@@ -6,7 +6,7 @@ font-family: "Kaushan Script", cursive;
     height: 100vh;
     padding: 40px 0;
     padding-right:105px;
-    background-image: url("./img/headerBcg.jpeg");
+    background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381904/Cake-shop/headerBcg_hmcgyx.jpg");
     background-repeat: center;
     background-size: cover;
     height:800px;

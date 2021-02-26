@@ -9,6 +9,9 @@ import { StyledHeader } from "./components/styled/StyledHeader";
 import { GlobalStyle } from "./components/styled/GlobalStyle";
 import Footer from "./components/Footer";
 
+import logo from'./images/logo.svg'
+import cart from'./images/cart-icon.png'
+
 const App = () => {
     const [user, setUser] = useState(null);
     return (
@@ -39,7 +42,7 @@ const App = () => {
                     <div className="container">
                         <nav className="navbar">
                             <a className="navbar-brand" href="/">
-                                <img src="./img/logo.svg" alt="logo" />
+                                <img src={logo} alt="logo" />
                             </a>
                             <ul>
                                 <li className="list-reset">
@@ -61,7 +64,7 @@ const App = () => {
                             <button className="btn"></button>
                         </div>
                         <a href="/home" className="cart">
-                            <img src="./img/cart-icon.png" alt="cart-icon" />
+                            <img src={cart} alt="cart-icon" />
                             <span className="badge">2</span>
                         </a>
                     </div>

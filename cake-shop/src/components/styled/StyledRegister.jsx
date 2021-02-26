@@ -1,7 +1,6 @@
 import styled from "styled-components";
-
-export const StyledLogin = styled.div`
-    font-family: "Kaushan Script", cursive;
+export const StyledRegister = styled.div`
+font-family: "Kaushan Script", cursive;
     display: flex;
     justify-content:flex-end;
     height: 100vh;
@@ -12,12 +11,11 @@ export const StyledLogin = styled.div`
     background-size: cover;
     height:800px;
 
-h2{
+    h2{
     text-align:center;
     margin-bottom:10px;
-}
-
-form{
+    }
+    .forma{
     width: 30%;
     max-width: 600px;
     padding: 40px;
@@ -25,26 +23,6 @@ form{
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-button{
-    display: block;
-    background-color: #ef7998;
-    color: #fff;
-    border: 0;
-    border-radius: 5px;
-    height: 40px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    font-size:18px;
-    margin-bottom: 10px;
-    :focus{
-        outline:none;
-    }
-}
-
-label{
-    font-size:18px;
 }
 
 input{
@@ -61,15 +39,23 @@ input{
         outline:none;
     }
 }
-
-a{
-    color:black;
-}
 .error{
     color: #ef7998;
     margin-bottom:20px;
 }
-
+button{
+    display: block;
+    background-color: #ef7998;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size:18px;
+    margin-bottom: 10px;
+    :focus{
+        outline:none;
+    }
+}
 `
-
-export default StyledLogin

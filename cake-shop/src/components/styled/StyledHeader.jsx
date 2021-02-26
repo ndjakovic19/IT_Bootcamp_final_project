@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
+
   .container {
       width: 100%;
       padding-right: 15px;
@@ -24,6 +25,19 @@ export const StyledHeader = styled.header`
       margin-bottom: 10px;
       padding-left: 100px;
       font-size: 18px;
+  }
+
+    
+  .logout{
+    margin-left:15px;
+    background-color:transparent;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 10px;
+
+  }
+  .welcome {
+    font-size: 18px;
   }
 
   .login {

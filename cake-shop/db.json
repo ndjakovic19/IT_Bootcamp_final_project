@@ -11,8 +11,13 @@
       "email": "ndddd@gmail.com",
       "password": "Kovacevic123",
       "id": 2
+    },
+    {
+      "username": "Marko",
+      "email": "djakovic@gmail.com",
+      "password": "klackalica1234",
+      "id": 3
     }
-  
   ],
   "products": [
     {

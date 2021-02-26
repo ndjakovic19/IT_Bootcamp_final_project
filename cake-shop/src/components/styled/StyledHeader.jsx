@@ -6,8 +6,9 @@ export const StyledHeader = styled.header`
       width: 100%;
       padding-right: 15px;
       padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
+      /* margin-right: auto;
+      margin-left: auto; */
+      margin-bottom: 20px;
   }
   .row {
       justify-content: space-between !important;
@@ -101,7 +102,7 @@ export const StyledHeader = styled.header`
       display: flex;
       justify-content: flex-end;
       position: absolute;
-      top: 80px;
+      top: 100px;
       right: 115px;
   }
   .search {

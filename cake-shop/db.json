@@ -17,6 +17,18 @@
       "email": "djakovic@gmail.com",
       "password": "klackalica1234",
       "id": 3
+    },
+    {
+      "username": "Marija",
+      "email": "mara23@gmail.com",
+      "password": "suncevadolina2",
+      "id": 4
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 5
     }
   ],
   "products": [

@@ -36,7 +36,6 @@ export const StyledAbout = styled.section`
         font-size:50px;
         text-align:left;
         margin-bottom:20px;
-        text-transform: capitalize!important;
       }
         
     span{
@@ -44,13 +43,13 @@ export const StyledAbout = styled.section`
         }
 
     p{
-        color: #6c757d!important;
+        color: #6c757d;
         width:75%;
         margin-bottom:20px;
      }
 
     button{
-        text-transform: uppercase!important;
+        text-transform: uppercase;
         background-color: transparent;
         text-align: center;
         padding:5px;

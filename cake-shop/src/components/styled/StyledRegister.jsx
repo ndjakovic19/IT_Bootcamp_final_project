@@ -9,7 +9,7 @@ font-family: "Kaushan Script", cursive;
     background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381904/Cake-shop/headerBcg_hmcgyx.jpg");
     background-repeat: center;
     background-size: cover;
-    height:800px;
+    height:850px;
 
     h2{
     text-align:center;

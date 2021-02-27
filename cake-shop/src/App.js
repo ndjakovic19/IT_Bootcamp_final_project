@@ -8,12 +8,14 @@ import Store from "./components/Store";
 import { StyledHeader } from "./components/styled/StyledHeader";
 import { GlobalStyle } from "./components/styled/GlobalStyle";
 import Footer from "./components/Footer";
+import { FaBars } from "react-icons/fa";
 
-import logo from'./images/logo.svg'
-import cart from'./images/cart-icon.png'
+import logo from './images/logo.svg'
+import cart from './images/cart-icon.png'
 
 const App = () => {
     const [user, setUser] = useState(null);
+    const [open, setOpen] = useState(false)
     return (
         <>
             <Router>
@@ -41,12 +43,14 @@ const App = () => {
                     </div>
                     <div className="container">
                         <nav className="navbar">
+
                             <a className="navbar-brand" href="/">
                                 <img src={logo} alt="logo" />
                             </a>
-                            <ul>
+
+                            <ul className="nav-links" style={{ transform: open ? "translateX(0px)" : "" }}>
                                 <li className="list-reset">
-                                    <Link to="/">Home</Link>
+                                    <Link  to="/">Home</Link>
                                 </li>
                                 <li className="list-reset">
                                     <Link to="/about">About</Link>
@@ -55,6 +59,7 @@ const App = () => {
                                     <Link to="/store">Store</Link>
                                 </li>
                             </ul>
+                            <FaBars className="burger" onClick={() => setOpen(!open)} />
                         </nav>
                     </div>
 

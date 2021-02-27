@@ -12,6 +12,7 @@ const Store = () => {
         getAllProducts().then((res) => {
             setAllProducts(res.data);
             setProducts(res.data)
+            console.log(res)
         });
 
 

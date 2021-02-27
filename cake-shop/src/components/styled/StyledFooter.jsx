@@ -1,17 +1,16 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-    background-color:#afb2b552;
-    /* background-color: #fababd; */
-    background-color:#F9E7D7;
-    
+    /* background-color:#afb2b552;
+    background-color: #9d8189; */
+    background-color:#FBB1BD;
 
 .container{
  
     padding-right: 15px;
     padding-left: 15px;
-    color: #6c757d;
-    /* color:#eee; */
+    /* color: #6c757d; */
+    color:#eee;
 
 }
 .row{
@@ -36,8 +35,10 @@ export const StyledFooter = styled.footer`
 
 h4{
     text-transform: uppercase;
-    color:#ef7998;
-    /* color: #6c757d; */
+   
+    /* color: #2e3338;
+    color:#ef7998; */
+    color:#eee;
     margin-bottom:10px;
 }
 
@@ -47,20 +48,21 @@ h4{
 
 .work-hour span{
     text-transform: uppercase;
-    color:#ef7998;
-    /* color: #6c757d; */
+    /* color:#ef7998;
+    color: #2e3338; */
+    color:#eee;
     margin-bottom:10px;
 
 }  
 .additionally-info a{
     text-transform: uppercase;
-    color: #6c757d;
+    /* color: #6c757d; */
     display:block;
     margin-bottom:5px;
-    /* color:#eee; */
+    color:#eee;
     :hover{
-        color: #2e3338;
-        /* color: #6c757d; */
+     
+        color: #6c757d;
         transition: all 0.5s ease-in-out;
     }
 }
@@ -74,9 +76,9 @@ h4{
 
   h4{
     text-transform: uppercase;
-    color: #6c757d;
+    /* color: #6c757d; */
     font-size:20px;
-    /* color:#eee; */
+    color:#eee;
   }
 
 
@@ -89,8 +91,8 @@ li{
 }
 
 .icon{
-    color:#6c757d;
-    /* color:#eee; */
+    /* color:#6c757d; */
+    color:#eee;
     font-weight: 900;
     font-size:25px;
     :hover {

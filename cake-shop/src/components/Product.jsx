@@ -8,7 +8,7 @@ const Product = ({ product }) => {
         <div className="card">
             <div className="img-container">
                 <img src={product.img} alt={`img of ${product.name}`} />
-                <span class="store-item-icon">
+                <span className="store-item-icon">
                     <FaShoppingCart className="cart-icon" />
                 </span>
             </div>

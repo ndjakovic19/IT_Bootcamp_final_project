@@ -16,7 +16,8 @@ import cart from './images/cart-icon.png'
 const App = () => {
     const [user, setUser] = useState(null);
     const [open, setOpen] = useState(false)
-    const [openForm,setOpenForm] = useState(false)
+    const [openLogin,setOpenLogin] = useState(false)
+    const [openRegister,setOpenRegister] = useState(false)
      return (
         <>
             <Router basename = {process.env.PUBLIC_URL}>
@@ -34,8 +35,8 @@ const App = () => {
                                         </>
                                         :
                                         <>
-                                            <Link onClick={() => setOpenForm(!openForm)} to="/login">Login</Link>
-                                            <Link to="/register">Register</Link>
+                                            <Link onClick={() => setOpenLogin(!openLogin)} to="/login">Login</Link>
+                                            <Link onClick={() => setOpenRegister(!openRegister)} to="/register">Register</Link>
                                         </>
                                 }
 
@@ -76,8 +77,6 @@ const App = () => {
                         </nav>
 
                     </div>
-
-
                 </StyledHeader>
                 <Switch>
                     <Route exact path="/">
@@ -90,10 +89,10 @@ const App = () => {
                         <Store user={user} />
                     </Route>
                     <Route exact path="/login">
-                        <Login setUser = {setUser} openForm={openForm} setOpenForm={setOpenForm}/>
+                        <Login setUser = {setUser} openLogin={openLogin} setOpenLogin={setOpenLogin}/>
                     </Route>
                     <Route exact path="/register">
-                        <Register setUser={setUser} />
+                        <Register setUser={setUser} openRegister={openRegister} setOpenRegister={setOpenRegister}/>
                     </Route>
                 </Switch>
             </Router>

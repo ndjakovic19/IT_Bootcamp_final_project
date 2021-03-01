@@ -8,7 +8,7 @@ export const StyledLogin = styled.div`
     top: 50%;
     left: 50%;
     border: 3px solid #f1f1f1;
-    z-index: 9;
+    z-index: 20;
     width:600px;
     min-height: 1px;;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
@@ -80,4 +80,4 @@ a{
  font-size:25px;
 }
 `
-export default StyledLogin
+

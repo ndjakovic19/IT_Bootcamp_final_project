@@ -16,7 +16,7 @@ const About = () => {
                                 deserunt asperiores facere fuga dicta fugiat corrupti et omnis
                                 porro at dolorum! Ad!
                            </p>
-                            <button>Expolore</button>
+                            <button>Explore</button>
                         </div>
                         <div className="google-map-holder">
                             <iframe className="google-map"

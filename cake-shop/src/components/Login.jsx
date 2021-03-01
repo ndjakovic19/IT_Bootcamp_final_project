@@ -2,13 +2,11 @@ import { useState } from "react"
 import { useHistory } from "react-router-dom"
 import { getAllUsers } from "../service"
 import { Link } from "react-router-dom"
-import StyledLogin from './styled/StyledLogin'
-import About from './About'
-import Store from './Store'
+import {StyledLogin} from './styled/StyledLogin'
 import Home from './Home'
 import { BsXCircle } from "react-icons/bs"
 
-const Login = ({ setUser,openForm,setOpenForm}) => {
+const Login = ({ setUser,openLogin,setOpenLogin}) => {
 
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -20,9 +18,9 @@ const Login = ({ setUser,openForm,setOpenForm}) => {
     return (
         <>
 
-            <StyledLogin style={{ display: openForm ? "block" : "" }}>
+            <StyledLogin style={{ display: openLogin ? "block" : "" }}>
                 <form className="form">
-                    <BsXCircle className="x-button-form" onClick={() => setOpenForm(!openForm)} />
+                    <BsXCircle className="x-button-form" onClick={() => setOpenLogin(!openLogin)} />
                     <h2>Login</h2>
 
                     <label>Username:</label>
@@ -51,8 +49,7 @@ const Login = ({ setUser,openForm,setOpenForm}) => {
                 </form>
             </StyledLogin>
             <Home/>
-            <About/>
-            <Store/>
+
         </>
     )
 }

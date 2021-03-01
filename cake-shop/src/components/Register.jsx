@@ -2,9 +2,9 @@ import { useState, useEffect } from "react"
 import { getAllUsers, postUser } from "../service"
 import { useHistory } from "react-router-dom"
 import { StyledRegister } from './styled/StyledRegister'
-
-
-const Register = () => {
+import { BsXCircle } from "react-icons/bs"
+import Home from './Home'
+const Register = ({openRegister,setOpenRegister}) => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [email, setEmail] = useState('')
@@ -44,9 +44,10 @@ const Register = () => {
 
     return (
         <>
-            <StyledRegister>
+            <StyledRegister style={{ display: openRegister ? "block" : "" }}>
 
                 <div className="forma">
+                <BsXCircle className="x-button-form" onClick={() => setOpenRegister(!openRegister)} /> 
                     <h2>Register</h2>
                     <div>
                         <label>Username: </label>
@@ -88,6 +89,7 @@ const Register = () => {
                     }}>Submit</button>
                 </div>
             </StyledRegister>
+            <Home/>
         </>
     )
 }

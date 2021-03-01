@@ -18,7 +18,7 @@ const App = () => {
     const [open, setOpen] = useState(false)
     return (
         <>
-            <Router>
+            <Router basename = {process.env.PUBLIC_URL}>
                 <GlobalStyle />
                 <StyledHeader>
                     <div className="container spikes">

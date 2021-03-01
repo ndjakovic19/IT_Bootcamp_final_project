@@ -1,35 +1,33 @@
 import styled from "styled-components";
 
+
 export const StyledLogin = styled.div`
     font-family: "Kaushan Script", cursive;
-    display: flex;
-    justify-content:flex-end;
-    padding: 40px 0;
-    padding-right:120px;
-    background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381904/Cake-shop/headerBcg_hmcgyx.jpg");
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width:600px;
+    min-height: 1px;;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    transition: 0.5s ease-in-out;
+    background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614604441/Pink_Cake_Birthday_Card_3_dmjtc6.jpg");
     background-repeat: center;
     background-size: cover;
-    height:850px;
-    @media (max-width: 1200px){
-        height:700px;
-    }
-    @media (max-width: 768px){
-        height:450px;
-    }
-
 h2{
     text-align:center;
     margin-bottom:10px;
 }
 
 form{
-    width: 30%;
+    width: 100%;
     padding: 40px;
-    background-color: #c1e2e600;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-    
+    box-sizing: border-box; 
 }
 
 button{
@@ -55,7 +53,7 @@ label{
 input{
     display: block;
     width: 100%;
-    background-color: rgb(238, 238, 238);
+    background-color: #f8f9fa;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -75,6 +73,11 @@ a{
     margin-bottom:20px;
 }
 
+.x-button-form{
+ position:absolute;
+ top:10px;
+ right:10px;
+ font-size:25px;
+}
 `
-
 export default StyledLogin

@@ -3,10 +3,12 @@ import { useHistory } from "react-router-dom"
 import { getAllUsers } from "../service"
 import { Link } from "react-router-dom"
 import StyledLogin from './styled/StyledLogin'
+import About from './About'
+import Store from './Store'
+import Home from './Home'
+import { BsXCircle } from "react-icons/bs"
 
-
-
-const Login = ({ setUser }) => {
+const Login = ({ setUser,openForm,setOpenForm}) => {
 
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -18,8 +20,9 @@ const Login = ({ setUser }) => {
     return (
         <>
 
-            <StyledLogin>
+            <StyledLogin style={{ display: openForm ? "block" : "" }}>
                 <form className="form">
+                    <BsXCircle className="x-button-form" onClick={() => setOpenForm(!openForm)} />
                     <h2>Login</h2>
 
                     <label>Username:</label>
@@ -47,7 +50,9 @@ const Login = ({ setUser }) => {
                     </div>
                 </form>
             </StyledLogin>
-
+            <Home/>
+            <About/>
+            <Store/>
         </>
     )
 }

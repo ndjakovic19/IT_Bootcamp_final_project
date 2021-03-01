@@ -16,10 +16,11 @@ import cart from './images/cart-icon.png'
 const App = () => {
     const [user, setUser] = useState(null);
     const [open, setOpen] = useState(false)
-    return (
+    const [openForm,setOpenForm] = useState(false)
+     return (
         <>
             <Router basename = {process.env.PUBLIC_URL}>
-                <GlobalStyle />
+                <GlobalStyle/>
                 <StyledHeader>
                     <div className="container spikes">
                         <div className="row">
@@ -33,7 +34,7 @@ const App = () => {
                                         </>
                                         :
                                         <>
-                                            <Link to="/login">Login</Link>
+                                            <Link onClick={() => setOpenForm(!openForm)} to="/login">Login</Link>
                                             <Link to="/register">Register</Link>
                                         </>
                                 }
@@ -44,7 +45,7 @@ const App = () => {
                     <div className="container">
                         <nav className="navbar">
 
-                            <a className="navbar-brand" href="/">
+                            <a className="navbar-brand" href="/home">
                                 <img src={logo} alt="logo" />
                             </a>
 
@@ -89,7 +90,7 @@ const App = () => {
                         <Store user={user} />
                     </Route>
                     <Route exact path="/login">
-                        <Login setUser={setUser} />
+                        <Login setUser = {setUser} openForm={openForm} setOpenForm={setOpenForm}/>
                     </Route>
                     <Route exact path="/register">
                         <Register setUser={setUser} />

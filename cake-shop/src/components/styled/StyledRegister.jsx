@@ -1,23 +1,28 @@
 import styled from "styled-components";
+
 export const StyledRegister = styled.div`
 font-family: "Kaushan Script", cursive;
     display: flex;
     justify-content:flex-end;
     height: 100vh;
     padding: 40px 0;
-    padding-right:105px;
+    padding-right:120px;
     background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381904/Cake-shop/headerBcg_hmcgyx.jpg");
     background-repeat: center;
     background-size: cover;
     height:850px;
+    height:850px;
+    @media (max-width: 1200px){
+        height:700px;
+    }
 
     h2{
-    text-align:center;
-    margin-bottom:10px;
+        text-align:center;
+        margin-bottom:10px;
     }
+    
     .forma{
     width: 30%;
-    max-width: 600px;
     padding: 40px;
     background-color: #c1e2e600;
     border-radius: 10px;

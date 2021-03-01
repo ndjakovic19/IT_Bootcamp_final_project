@@ -8,12 +8,19 @@ export const StyledHeader = styled.header`
       margin-bottom: 20px;
   }
   .row {
-      justify-content: space-between !important;
+      justify-content: space-between;
       background-color: #f8f9fa;
       display: flex;
       flex-wrap: wrap;
-      margin-right: -15px;
-      margin-left: -15px;
+      padding-left:40px;
+      padding-right:40px;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      @media (max-width: 768px){
+        padding:0;
+        }
+  
   }
 
   .phone-info {
@@ -21,7 +28,7 @@ export const StyledHeader = styled.header`
       color: #333;
       margin-top: 10px;
       margin-bottom: 10px;
-      padding-left: 100px;
+      padding-left: 50px;
       font-size: 18px;
   }
 
@@ -43,7 +50,8 @@ export const StyledHeader = styled.header`
       display: block;
       margin-top: 10px;
       margin-bottom: 10px;
-      padding-right: 100px;   
+      padding-right: 30px;  
+      
   }
 
   .login a {
@@ -60,11 +68,16 @@ export const StyledHeader = styled.header`
       font-size: 1.25rem;
       line-height: inherit;
       white-space: nowrap;
+      padding-left: 50px;
+
+      @media (max-width: 768px){
+        padding-left: 20px; 
+        margin-right:0;
+        }
   }
 
   .navbar-brand img {
       margin-top: 10px;
-      padding-left: 85px;
       display: block;
       max-width: 100%;
   }
@@ -75,6 +88,8 @@ export const StyledHeader = styled.header`
       background-color: #fff;
       position: relative;
       align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
 
       @media (max-width: 768px){
         
@@ -92,7 +107,7 @@ export const StyledHeader = styled.header`
         width:30%;
         display:block;
         position:fixed;
-        top:-67px;
+        top:-10px;
         left:-13px;
         height:135vh;
         background-color: #040403b8;
@@ -101,19 +116,29 @@ export const StyledHeader = styled.header`
         text-align:left;
         transform:translateX(-500px);
         transition: 0.5s ease-in-out;
+        
     }   
   }
 
+.x-button{
+      display:none;
+      @media (max-width: 768px){
+      display:block;
+      color:#eee;
+      font-size:30px;
+      margin-left:165px;
+      }
+}
   .list-reset {
       margin-left: 10px;
       font-size: 30px;
       list-style: none;
-
+  
     @media (max-width: 768px){
         border-bottom: 2px solid #eeee;
 
         :first-child{
-            padding-top:200px;
+    
         }
         :last-child{
             border:none;
@@ -142,12 +167,12 @@ export const StyledHeader = styled.header`
   
 
   nav .burger{
-    margin-top:20px;
+    margin-top:13px;
     font-size:40px;
     color: #ef7998;
     display:none;
     cursor: pointer;
-    margin-left:50px;
+    margin-left:15px;
 
     @media (max-width: 768px){
         display:block;
@@ -155,13 +180,17 @@ export const StyledHeader = styled.header`
     }
   }
 
-
   .search-cart-holder {
       display: flex;
       justify-content: flex-end;
       position: absolute;
-      top: 100px;
-      right: 115px;
+      top: 34px;
+      right: 110px;
+
+    @media (max-width: 768px){
+        right: 68px;
+     
+    }
   }
 
   .search {

@@ -9,7 +9,7 @@ import { StyledHeader } from "./components/styled/StyledHeader";
 import { GlobalStyle } from "./components/styled/GlobalStyle";
 import Footer from "./components/Footer";
 import { FaBars } from "react-icons/fa";
-
+import { BsXCircle } from "react-icons/bs"
 import logo from './images/logo.svg'
 import cart from './images/cart-icon.png'
 
@@ -49,8 +49,9 @@ const App = () => {
                             </a>
 
                             <ul className="nav-links" style={{ transform: open ? "translateX(0px)" : "" }}>
+                                <BsXCircle className="x-button" onClick={() => setOpen(!open)} />
                                 <li className="list-reset">
-                                    <Link  to="/">Home</Link>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="list-reset">
                                     <Link to="/about">About</Link>
@@ -60,19 +61,22 @@ const App = () => {
                                 </li>
                             </ul>
                             <FaBars className="burger" onClick={() => setOpen(!open)} />
+                            <div className="search-cart-holder">
+                                <div className="search">
+                                    <input type="text" className="form-control" />
+                                    <button className="btn"></button>
+                                </div>
+                                <a href="/home" className="cart">
+                                    <img src={cart} alt="cart-icon" />
+                                    <span className="badge">2</span>
+                                </a>
+                            </div>
+
                         </nav>
+
                     </div>
 
-                    <div className="search-cart-holder">
-                        <div className="search">
-                            <input type="text" className="form-control" />
-                            <button className="btn"></button>
-                        </div>
-                        <a href="/home" className="cart">
-                            <img src={cart} alt="cart-icon" />
-                            <span className="badge">2</span>
-                        </a>
-                    </div>
+
                 </StyledHeader>
                 <Switch>
                     <Route exact path="/">

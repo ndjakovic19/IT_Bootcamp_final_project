@@ -53,6 +53,12 @@ h2 {
     span{
         color: #ef7998;
     }
+
+    @media (max-width: 768px){
+        width: 550px;
+        height: 200px;
+        font-size: 40px;
+        }
 } 
 
 .indicators{

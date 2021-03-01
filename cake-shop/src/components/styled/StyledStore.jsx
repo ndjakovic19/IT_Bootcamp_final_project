@@ -14,6 +14,9 @@ export const StyledStore = styled.div`
 
     h1 {
         font-size: 50px;
+        @media (max-width: 768px){
+            font-size: 40px;
+        }
         
         span {
             color: #ef7998;
@@ -35,7 +38,10 @@ export const StyledStore = styled.div`
         border-radius: 5px;
         transition: all 0.5s ease-in-out;
         margin: 15px;
-
+        @media (max-width: 768px){
+            padding:5px;
+            font-size: 12px;
+        }
       :hover {
         background-color: black;
         color: #ef7998;

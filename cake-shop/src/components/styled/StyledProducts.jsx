@@ -11,19 +11,20 @@ export const StyledProducts = styled.div`
     margin-left:15px;
     margin-right:15px; 
     padding-left:40px; 
-    padding-right:40px;    
+    padding-right:40px;  
+    @media (max-width: 768px){
+        padding:0;
+        }  
 }   
 `
 export const StyledProduct = styled.div`
-    width:33.3%;
-       
+    width:33.3%;   
     margin-bottom:15px;
     margin-top:15px;
     padding-left:20px; 
     padding-right:20px;
     
     .card{
-   
         position: relative;
         background-color: #fff;
         border: 1px solid rgba(0,0,0,.125);
@@ -53,15 +54,22 @@ export const StyledProduct = styled.div`
         bottom: 0;
         right: 0;
         height:40px;
-        padding:10px 10px;
+        padding:10px ;
         background: pink;
         border-top-left-radius: 10px;
         transition: all 1s ease-in-out;
         transform: translate(100%, 100%);
+            @media (max-width: 768px){
+                height:30px; 
+                padding:5px
+            }  
     
     }
     .cart-icon{
         font-size:20px;
+        @media (max-width: 768px){
+            font-size:16px;
+            } 
     }
  
     .card-body{
@@ -75,11 +83,17 @@ export const StyledProduct = styled.div`
         padding-top:15px;
         padding-bottom:10px;
         font-size:20px;
+        @media (max-width: 768px){
+            font-size:16px;
+            } 
     }
     span{
         padding-top:15px;
         padding-bottom:10px;
         font-size:20px;
+        @media (max-width: 768px){
+            font-size:16px;
+            } 
     }
     
 `

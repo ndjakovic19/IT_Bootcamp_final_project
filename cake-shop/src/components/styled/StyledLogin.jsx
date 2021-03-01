@@ -5,11 +5,17 @@ export const StyledLogin = styled.div`
     display: flex;
     justify-content:flex-end;
     padding: 40px 0;
-    padding-right:105px;
+    padding-right:120px;
     background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614381904/Cake-shop/headerBcg_hmcgyx.jpg");
     background-repeat: center;
     background-size: cover;
     height:850px;
+    @media (max-width: 1200px){
+        height:700px;
+    }
+    @media (max-width: 768px){
+        height:450px;
+    }
 
 h2{
     text-align:center;
@@ -18,12 +24,12 @@ h2{
 
 form{
     width: 30%;
-    max-width: 600px;
     padding: 40px;
     background-color: #c1e2e600;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    
 }
 
 button{

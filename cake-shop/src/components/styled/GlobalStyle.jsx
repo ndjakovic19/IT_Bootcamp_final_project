@@ -26,4 +26,7 @@ li{
     text-decoration: none;
     list-style:none;
 }
+.blur {
+    filter: blur(4px)
+}
 `

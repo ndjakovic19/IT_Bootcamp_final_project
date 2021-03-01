@@ -7,7 +7,7 @@ import 'react-slideshow-image/dist/styles.css'
 import About from './About'
 import Store from './Store'
 
-const Home = () => {
+const Home = ({ blur }) => {
 
     const properties = {
         duration: 5000,
@@ -17,8 +17,11 @@ const Home = () => {
         arrows: true
     }
 
+    let isBlurClass = blur ? 'blur' : 'not-blur'
+    
     return (
-        <>
+        <> 
+            <div className={isBlurClass}>
             <StyledHome>
                 <Slide {...properties}>
                     <div className="each-slide">
@@ -41,6 +44,7 @@ const Home = () => {
             </StyledHome>
             <About/>
             <Store/>
+        </div>
         </>
     )
 }

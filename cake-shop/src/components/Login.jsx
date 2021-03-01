@@ -48,7 +48,7 @@ const Login = ({ setUser,openLogin,setOpenLogin}) => {
                     </div>
                 </form>
             </StyledLogin>
-            <Home/>
+            <Home blur={openLogin}/>
 
         </>
     )

@@ -53,7 +53,7 @@ label{
 input{
     display: block;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #f8f9fa6b;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #ddd;

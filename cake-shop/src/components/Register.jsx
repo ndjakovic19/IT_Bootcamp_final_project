@@ -44,7 +44,7 @@ const Register = ({openRegister,setOpenRegister}) => {
 
     return (
         <>
-            <StyledRegister style={{ display: openRegister ? "block" : "" }}>
+            <StyledRegister style={{ display: openRegister ? "block" : ""}}>
 
                 <div className="forma">
                 <BsXCircle className="x-button-form" onClick={() => setOpenRegister(!openRegister)} /> 
@@ -88,8 +88,8 @@ const Register = ({openRegister,setOpenRegister}) => {
 
                     }}>Submit</button>
                 </div>
-            </StyledRegister>
-            <Home/>
+            </StyledRegister >
+            <Home blur={openRegister}/>
         </>
     )
 }

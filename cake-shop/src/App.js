@@ -46,7 +46,7 @@ const App = () => {
                     <div className="container">
                         <nav className="navbar">
 
-                            <a className="navbar-brand" href="/home">
+                            <a className="navbar-brand" href="/">
                                 <img src={logo} alt="logo" />
                             </a>
 

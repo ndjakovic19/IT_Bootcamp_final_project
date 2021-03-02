@@ -40,6 +40,9 @@ font-family: "Kaushan Script", cursive;
     width: 100%;
     padding: 40px;
     box-sizing: border-box; 
+    @media (max-width: 375px){
+        padding-top:10px;
+        }
     }
 
 
@@ -53,6 +56,11 @@ input{
     margin: 10px 0 20px 0;
     padding: 20px;
     box-sizing: border-box;
+    @media (max-width: 375px){
+        padding-top:10px;
+        padding-bottom:10px;
+        }
+    
     :focus{
         outline:none;
     }

@@ -57,15 +57,19 @@ export const StyledFooter = styled.footer`
        right:25px;
      
     }
+    @media (max-width: 360px){
+       top:160px;
+    }
 }
 
 h4{
     text-transform: uppercase;
     color:#eee;
     margin-bottom:10px;
-   
+    @media (max-width: 375px){
+        font-size:14px
 }
-
+}
 .info{
     margin-bottom:20px;
     @media (max-width: 414px){
@@ -77,7 +81,9 @@ h4{
     text-transform: uppercase;
     color:#eee;
     margin-bottom:10px;
-
+    @media (max-width: 375px){
+        font-size:14px
+    }
 }  
 .additionally-info{
     @media (max-width: 576px){
@@ -98,8 +104,9 @@ h4{
         color:#25081270;
         transition: all 0.5s ease-in-out;
     }
-   
-    
+    @media (max-width: 375px){
+        font-size:14px
+    }
 }
 
 
@@ -117,6 +124,9 @@ h4{
         }
         @media (max-width: 375px){
          margin-left:5px;
+        }
+        @media (max-width: 375px){
+        font-size:14px
         }
     }
 
@@ -136,6 +146,7 @@ h4{
     
         a{
             margin-right:10px;
+
             @media (max-width: 768px){
                 margin-right:5px;
             }  
@@ -152,6 +163,7 @@ h4{
     color:#eee;
     font-weight: 900;
     font-size:25px;
+
     :hover {
         transform: scale(1.5);
     }

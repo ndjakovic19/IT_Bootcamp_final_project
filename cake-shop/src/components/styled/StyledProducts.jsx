@@ -34,6 +34,9 @@ export const StyledProduct = styled.div`
     @media (max-width: 576px){
         width: 50%;
         }
+    @media (max-width: 360px){
+        width: 100%;
+    }
 
     
     .card{
@@ -78,6 +81,10 @@ export const StyledProduct = styled.div`
             @media (max-width: 414px){
                 height:25px; 
             } 
+            @media (max-width: 360px){
+                height:30px; 
+                padding:5px
+            }
     
     }
     .cart-icon{
@@ -88,6 +95,9 @@ export const StyledProduct = styled.div`
             @media (max-width: 414px){
             font-size:14px;
             } 
+            @media (max-width: 360px){
+                font-size:20px;
+            }
     }
  
     .card-body{
@@ -107,6 +117,9 @@ export const StyledProduct = styled.div`
             @media (max-width: 414px){
             font-size:14px;
             } 
+            @media (max-width: 360px){
+            font-size:16px;
+            } 
     }
     span{
         padding-top:15px;
@@ -117,6 +130,9 @@ export const StyledProduct = styled.div`
             } 
             @media (max-width: 414px){
             font-size:14px;
+            } 
+            @media (max-width: 360px){
+            font-size:16px;
             } 
     }
     

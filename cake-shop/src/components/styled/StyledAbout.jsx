@@ -149,6 +149,10 @@ export const StyledAbout = styled.section`
             width:100%;
             padding-left:38px; 
         }
+        @media (max-width: 360px){
+            width:100%;
+            padding-left:30px; 
+        }
         
     
     :before {

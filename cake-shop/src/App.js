@@ -46,7 +46,7 @@ const App = () => {
                     <div className="container">
                         <nav className="navbar">
 
-                            <a className="navbar-brand" href="/">
+                            <a className="navbar-brand" href="/IT_Bootcamp_final_project">
                                 <img src={logo} alt="logo" />
                             </a>
 
@@ -65,7 +65,7 @@ const App = () => {
                             <FaBars className="burger" onClick={() => setOpen(!open)} />
                             <div className="search-cart-holder">
                                 <div className="search">
-                                    <input type="text" className="form-control" />
+                                    <input type="search" className="input-search"/>
                                     <button className="btn"></button>
                                 </div>
                                 <a href="/home" className="cart">

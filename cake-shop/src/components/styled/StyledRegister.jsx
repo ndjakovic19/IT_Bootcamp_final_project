@@ -18,6 +18,12 @@ font-family: "Kaushan Script", cursive;
     background-image: url("https://res.cloudinary.com/dwgzh4kmx/image/upload/v1614604441/Pink_Cake_Birthday_Card_3_dmjtc6.jpg");
     background-repeat: center;
     background-size: cover;
+    @media (max-width: 992px){
+        width:500px;
+        }
+    @media (max-width: 768px){
+        width:400px;
+        }
 
     h2{
         text-align:center;

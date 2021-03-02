@@ -17,6 +17,9 @@ export const StyledStore = styled.div`
         @media (max-width: 768px){
             font-size: 40px;
         }
+        @media (max-width: 576px){
+            font-size: 30px;
+        }
         
         span {
             color: #ef7998;
@@ -42,6 +45,10 @@ export const StyledStore = styled.div`
             padding:5px;
             font-size: 12px;
         }
+        @media (max-width: 576px){
+            padding:3px;
+        }
+        
       :hover {
         background-color: black;
         color: #ef7998;
@@ -56,6 +63,9 @@ export const StyledStore = styled.div`
 .wrap {
     width: 30%;
     margin: 25px auto;
+    @media (max-width: 768px){
+        width: 50%;
+        }
 
 .search {
     width: 100%;

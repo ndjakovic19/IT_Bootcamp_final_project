@@ -24,6 +24,11 @@ export const StyledProduct = styled.div`
     padding-left:20px; 
     padding-right:20px;
     
+    @media (max-width: 576px){
+        width: 50%;
+        }
+
+    
     .card{
         position: relative;
         background-color: #fff;

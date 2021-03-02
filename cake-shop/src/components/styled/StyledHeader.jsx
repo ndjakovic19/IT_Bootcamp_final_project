@@ -30,6 +30,10 @@ export const StyledHeader = styled.header`
       margin-bottom: 10px;
       padding-left: 50px;
       font-size: 18px;
+
+      @media (max-width: 576px){
+        font-size: 16px;
+        }
   }
 
     
@@ -39,11 +43,23 @@ export const StyledHeader = styled.header`
     border-radius: 5px;
     height: 30px;
     padding: 0 10px;
+    margin-right:20px;
+    @media (max-width: 768px){
+        margin-right:15px;
+    }
+    @media (max-width: 576px){
+        height: 25px;
+        padding: 0 5px;
+      
+        }
 
   }
 
   .welcome {
     font-size: 18px;
+    @media (max-width: 576px){
+        font-size: 16px;
+        }
   }
 
   .login {
@@ -65,8 +81,7 @@ export const StyledHeader = styled.header`
       padding-top: 0.3125rem;
       padding-bottom: 0.3125rem;
       margin-right: 1rem;
-      font-size: 1.25rem;
-      line-height: inherit;
+      /* line-height: inherit; */
       white-space: nowrap;
       padding-left: 50px;
 
@@ -80,6 +95,9 @@ export const StyledHeader = styled.header`
       margin-top: 10px;
       display: block;
       max-width: 100%;
+      @media (max-width: 768px){
+        max-width: 80%; 
+      }
   }
 
   .navbar {
@@ -91,9 +109,6 @@ export const StyledHeader = styled.header`
       padding-left: 50px;
       padding-right: 50px;
 
-      @media (max-width: 768px){
-        
-      }
   }
 
   nav .nav-links {
@@ -118,6 +133,9 @@ export const StyledHeader = styled.header`
         transition: 0.5s ease-in-out;
         
     }   
+    @media (max-width: 576px){
+        width:40%;
+    }
   }
 
 .x-button{
@@ -178,6 +196,10 @@ export const StyledHeader = styled.header`
         display:block;
      
     }
+    @media (max-width: 576px){
+        font-size:33px;
+        margin-left:5px;
+    }
   }
 
   .search-cart-holder {
@@ -189,8 +211,12 @@ export const StyledHeader = styled.header`
 
     @media (max-width: 768px){
         right: 68px;
-     
+        top: 25px;
     }
+    @media (max-width: 576px){
+        top: 20px;
+    }
+
   }
 
   .search {
@@ -198,7 +224,7 @@ export const StyledHeader = styled.header`
       top: 4px;
       margin-right: 10px;
   }
-  .form-control {
+  .input-search {
       display: block;
       border: none;
       border-bottom: 1px solid #ccc;
@@ -206,6 +232,10 @@ export const StyledHeader = styled.header`
       box-shadow: none;
       width: 140px;
       height: 24px;
+      background-color:transparent;
+      :focus{
+          outline:none
+      }
   }
   .form-control:focus {
       outline: none;

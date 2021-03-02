@@ -7,14 +7,20 @@ export const StyledAbout = styled.section`
     @media (max-width: 768px){
         padding-bottom :20px;
         }   
-
+    @media (max-width: 576px){
+            padding-top:15px;;
+        }
     .container {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
+        @media (max-width: 576px){
+         min-height:1px;
+        }
     }
 
     .row {
+
         display: flex;
         flex-wrap: wrap;
         padding-left:40px;
@@ -39,15 +45,29 @@ export const StyledAbout = styled.section`
         @media (max-width: 992px){
             margin-top:0px;
         }
+        @media (max-width: 576px){
+            max-width: 50%;
+            padding:0;
+            margin: 0 auto;
+            padding-left:50px;
+
+        }
+        
 
     h1{
         font-size:50px;
         text-align:left;
         margin-bottom:20px;
+
         @media (max-width: 768px){
         font-size:40px;
         margin-bottom:5px;
         }
+        @media (max-width: 576px){
+            font-size:30px;  
+          
+        }
+
       }
         
     span{
@@ -62,6 +82,11 @@ export const StyledAbout = styled.section`
             margin-bottom:5px;
             width:90%;
         }
+        @media (max-width: 576px){
+          
+            margin-bottom:5px;
+            font-size:14px;
+        }
      }
 
     button{
@@ -73,9 +98,10 @@ export const StyledAbout = styled.section`
         line-height: 1.5;
         border-radius:5px;
         transition: all 0.5s ease-in-out;
+
         @media (max-width: 768px){
             font-size:12px;
-            padding:1;
+            padding:3px;
         }
 
         :hover{
@@ -92,7 +118,9 @@ export const StyledAbout = styled.section`
     .google-map-holder{
         width:50%;
         position: relative;
-
+        @media (max-width: 576px){
+            padding-top:15px;
+        }
     
     :before {
         content: "";
@@ -119,6 +147,9 @@ export const StyledAbout = styled.section`
             top:-1rem;
             left:-1.2rem;
         }
+        @media (max-width: 576px){
+            display:none;
+        }
     }
 
     :hover:before {
@@ -143,7 +174,15 @@ export const StyledAbout = styled.section`
             width: 300px;
             height: 250px;
         }
-
+        @media (max-width: 576px){
+            width: 210px;
+            height: 210px;
+            border: 2px solid #00000036;
+        }
+        
+     
     }
 
+    
+    
 `

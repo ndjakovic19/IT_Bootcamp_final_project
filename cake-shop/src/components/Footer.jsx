@@ -25,10 +25,10 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="col-1-3 additionally-info">
-                            <a href="/">About us</a>
-                            <a href="/">Contact </a>
-                            <a href="/">Careers</a>
-                            <a href="/">FAQ</a>
+                            <a href="/about">About us</a>
+                            <a href="/home">Contact </a>
+                            <a href="/home">Careers</a>
+                            <a href="/home">FAQ</a>
                         </div>
                         <div className="col-1-3 end-child">
                             <div className="contact">

@@ -59,7 +59,13 @@ h2 {
         height: 200px;
         font-size: 40px;
         }
-} 
+    @media (max-width: 576px){
+        width: 400px;
+        height: 150px;
+        font-size: 30px;
+        }
+    
+}   
 
 .indicators{
         margin-top:-20px!important;

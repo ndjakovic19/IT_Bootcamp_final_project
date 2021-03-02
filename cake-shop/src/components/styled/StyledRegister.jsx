@@ -24,6 +24,12 @@ font-family: "Kaushan Script", cursive;
     @media (max-width: 768px){
         width:400px;
         }
+        @media (max-width: 414px){
+        width:330px;
+        }
+        @media (max-width: 375px){
+        width:300px;
+        }
 
     h2{
         text-align:center;

@@ -6,6 +6,9 @@ export const StyledHeader = styled.header`
       padding-right: 15px;
       padding-left: 15px;
       margin-bottom: 20px;
+      @media (max-width: 414px){
+        padding:0;
+        }
   }
   .row {
       justify-content: space-between;
@@ -20,7 +23,9 @@ export const StyledHeader = styled.header`
       @media (max-width: 768px){
         padding:0;
         }
-  
+        @media (max-width: 414px){
+        margin:0;
+        }
   }
 
   .phone-info {
@@ -33,6 +38,10 @@ export const StyledHeader = styled.header`
 
       @media (max-width: 576px){
         font-size: 16px;
+        }
+        @media (max-width: 414px){
+            font-size: 14px;
+            padding-left: 40px;
         }
   }
 
@@ -57,8 +66,12 @@ export const StyledHeader = styled.header`
 
   .welcome {
     font-size: 18px;
+
     @media (max-width: 576px){
         font-size: 16px;
+        }
+    @media (max-width: 414px){
+        font-size: 14px;
         }
   }
 
@@ -73,6 +86,9 @@ export const StyledHeader = styled.header`
   .login a {
       margin-right: 10px;
       font-size: 18px;
+      @media (max-width: 414px){
+            font-size: 16px;
+        }
   }
 
 
@@ -81,13 +97,15 @@ export const StyledHeader = styled.header`
       padding-top: 0.3125rem;
       padding-bottom: 0.3125rem;
       margin-right: 1rem;
-      /* line-height: inherit; */
       white-space: nowrap;
       padding-left: 50px;
 
       @media (max-width: 768px){
         padding-left: 20px; 
         margin-right:0;
+        }
+        @media (max-width: 414px){
+            padding: 0px; 
         }
   }
 
@@ -108,6 +126,10 @@ export const StyledHeader = styled.header`
       align-items: center;
       padding-left: 50px;
       padding-right: 50px;
+      @media (max-width: 768px){
+        padding-left: 40px;
+        padding-right: 40px;
+      }
 
   }
 
@@ -136,6 +158,9 @@ export const StyledHeader = styled.header`
     @media (max-width: 576px){
         width:40%;
     }
+    @media (max-width: 414px){
+        width:50%;
+    }
   }
 
 .x-button{
@@ -146,6 +171,13 @@ export const StyledHeader = styled.header`
       font-size:30px;
       margin-left:165px;
       }
+      @media (max-width: 414px){
+        font-size:20px;
+        margin-left:155px;
+    }
+    @media (max-width: 375px){
+        margin-left:135px;
+    }
 }
   .list-reset {
       margin-left: 10px;
@@ -216,6 +248,9 @@ export const StyledHeader = styled.header`
     @media (max-width: 576px){
         top: 20px;
     }
+    @media (max-width: 414px){
+        right: 50px;
+        }
 
   }
 

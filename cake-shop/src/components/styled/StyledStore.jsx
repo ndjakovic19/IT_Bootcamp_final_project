@@ -8,6 +8,10 @@ export const StyledStore = styled.div`
     padding-left: 15px;
     padding-bottom:50px;
 
+    @media (max-width: 414px){
+            padding:20px 0;
+        }
+
 .title-holder {
     text-align: center;
     margin: 0 auto;
@@ -30,7 +34,9 @@ export const StyledStore = styled.div`
 .button-holder {
     text-align: center;
     margin-top: 25px;
-
+    @media (max-width: 414px){
+        margin-top: 5px;
+        }
     button {
         text-transform: uppercase;
         background-color: transparent;

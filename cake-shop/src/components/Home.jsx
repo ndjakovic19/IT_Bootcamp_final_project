@@ -16,9 +16,7 @@ const Home = ({ blur }) => {
         indicators: true,
         arrows: true
     }
-
     let isBlurClass = blur ? 'blur' : 'not-blur'
-    
     return (
         <> 
             <div className={isBlurClass}>

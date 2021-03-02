@@ -5,10 +5,12 @@ export const StyledFooter = styled.footer`
     background-color: #9d8189;
   
 .container{
- 
     padding-right: 15px;
     padding-left: 15px;
     color:#eee;
+    @media (max-width: 576px){
+            padding:0;
+        }
 
 }
 .row{
@@ -19,12 +21,17 @@ export const StyledFooter = styled.footer`
     padding-right:40px;
     margin-left: 15px;
     margin-right: 15px;
+
     @media (max-width: 768px){
           padding:0;
         }
         @media (max-width: 576px){
             position:relative;
         }
+        @media (max-width: 414px){
+            margin:0;
+        }
+
   
 }
 .col-1-3{
@@ -36,6 +43,11 @@ export const StyledFooter = styled.footer`
     @media (max-width: 576px){
         width:50%;
         }
+    @media (max-width: 414px){
+        padding-left: 40px;
+        padding-top:20px;
+        margin-top:20px;
+    }
 }   
 .end-child{
     border:none;
@@ -49,13 +61,16 @@ export const StyledFooter = styled.footer`
 
 h4{
     text-transform: uppercase;
-   
     color:#eee;
     margin-bottom:10px;
+   
 }
 
 .info{
     margin-bottom:20px;
+    @media (max-width: 414px){
+        margin-bottom:15px;  
+    }
 } 
 
 .work-hour span{
@@ -67,7 +82,9 @@ h4{
 .additionally-info{
     @media (max-width: 576px){
        border:none;
-    
+    }
+    @media (max-width: 375px){
+        padding-left:20px;
     }
 }
 .additionally-info a{
@@ -87,6 +104,7 @@ h4{
 
 
 .contact{
+   
     h4{
         text-transform: uppercase;
         font-size:20px;
@@ -97,12 +115,19 @@ h4{
         @media (max-width: 576px){
          margin-left:20px;
         }
+        @media (max-width: 375px){
+         margin-left:5px;
+        }
     }
 
     ul{
         margin-left:10px;
+
         @media (max-width: 576px){
          margin-left:20px;
+        }
+        @media (max-width: 375px){
+         margin-left:5px;
         }
     }
 
@@ -116,6 +141,9 @@ h4{
             }  
             @media (max-width: 576px){
                 margin-right:10px;
+            }   
+            @media (max-width: 414px){
+                margin-right:5px;
             }   
         }
     }

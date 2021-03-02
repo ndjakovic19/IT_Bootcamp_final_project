@@ -36,6 +36,11 @@ h2 {
     top: 10px;
     left: 10px;
     position: absolute;
+    @media (max-width: 414px){
+        width: 70px;
+        height: 30px;
+        }
+    
     }
 
     :after {
@@ -49,6 +54,10 @@ h2 {
     right: 10px;
     bottom: 10px;
     position: absolute;
+    @media (max-width: 414px){
+        width: 70px;
+        height: 30px;
+        }
     }
     span{
         color: #ef7998;
@@ -64,7 +73,13 @@ h2 {
         height: 150px;
         font-size: 30px;
         }
-    
+        @media (max-width: 414px){
+            width: 300px;
+            height: 137px;
+            font-size: 25px; 
+            padding-bottom : 20px;
+
+        }
 }   
 
 .indicators{

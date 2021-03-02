@@ -4,18 +4,23 @@ import styled from "styled-components";
 export const StyledAbout = styled.section`
     padding-top: 50px;
     padding-bottom :50px;
+
     @media (max-width: 768px){
         padding-bottom :20px;
         }   
     @media (max-width: 576px){
             padding-top:15px;;
         }
+
     .container {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         @media (max-width: 576px){
          min-height:1px;
+        }
+        @media (max-width: 414px){
+           padding:0;
         }
     }
 
@@ -29,7 +34,9 @@ export const StyledAbout = styled.section`
         @media (max-width: 768px){
            padding:0;
         }
-
+        @media (max-width: 414px){
+           margin:0;
+        }
     }
 
     .container-about{
@@ -52,6 +59,12 @@ export const StyledAbout = styled.section`
             padding-left:50px;
 
         }
+        @media (max-width: 414px){
+            width:100%;
+            padding:0;
+           
+            
+        }
         
 
     h1{
@@ -63,8 +76,9 @@ export const StyledAbout = styled.section`
         font-size:40px;
         margin-bottom:5px;
         }
-        @media (max-width: 576px){
+        @media (max-width: 414px){
             font-size:30px;  
+            text-align:center;
           
         }
 
@@ -86,6 +100,12 @@ export const StyledAbout = styled.section`
           
             margin-bottom:5px;
             font-size:14px;
+        }
+        @media (max-width: 414px){
+            width:100%;
+            text-align: justify;
+            text-justify: inter-word;
+          
         }
      }
 
@@ -121,6 +141,15 @@ export const StyledAbout = styled.section`
         @media (max-width: 576px){
             padding-top:15px;
         }
+        @media (max-width: 414px){
+            width:100%;
+            padding-left:60px;
+        }
+        @media (max-width: 375px){
+            width:100%;
+            padding-left:38px; 
+        }
+        
     
     :before {
         content: "";
@@ -133,9 +162,15 @@ export const StyledAbout = styled.section`
         z-index: -1;
         transition: all 1s ease-in-out;
 
+         
+        @media (max-width: 1280px){
+            width: 450px;
+            height: 338px; 
+        }
         @media (max-width: 1200px){
             width: 450px;
             height: 338px; 
+
         }
         @media (max-width: 992px){
             width: 350px;
@@ -160,7 +195,11 @@ export const StyledAbout = styled.section`
 }
 .google-map{
         border:none;
-
+          
+        @media (max-width: 1280px){
+            width: 450px;
+            height: 338px; 
+        }
         @media (max-width: 1200px){
         width: 450px;
         height: 338px; 
@@ -177,6 +216,12 @@ export const StyledAbout = styled.section`
         @media (max-width: 576px){
             width: 210px;
             height: 210px;
+            border: 2px solid #00000036;
+        }
+
+        @media (max-width: 414px){
+            width: 300px;
+            height: 250px;
             border: 2px solid #00000036;
         }
         

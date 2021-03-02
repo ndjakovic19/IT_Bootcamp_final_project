@@ -4,6 +4,10 @@ export const StyledProducts = styled.div`
     width: 100%;
     padding-right: 30px;
     padding-left: 30px;
+    @media (max-width: 414px){
+        padding-right: 20px;
+        padding-left: 20px;
+        }  
 
 .row {
     display: flex;
@@ -15,6 +19,9 @@ export const StyledProducts = styled.div`
     @media (max-width: 768px){
         padding:0;
         }  
+    @media (max-width: 414px){
+        margin:0;
+        }
 }   
 `
 export const StyledProduct = styled.div`
@@ -68,12 +75,18 @@ export const StyledProduct = styled.div`
                 height:30px; 
                 padding:5px
             }  
+            @media (max-width: 414px){
+                height:25px; 
+            } 
     
     }
     .cart-icon{
         font-size:20px;
         @media (max-width: 768px){
             font-size:16px;
+            } 
+            @media (max-width: 414px){
+            font-size:14px;
             } 
     }
  
@@ -91,6 +104,9 @@ export const StyledProduct = styled.div`
         @media (max-width: 768px){
             font-size:16px;
             } 
+            @media (max-width: 414px){
+            font-size:14px;
+            } 
     }
     span{
         padding-top:15px;
@@ -98,6 +114,9 @@ export const StyledProduct = styled.div`
         font-size:20px;
         @media (max-width: 768px){
             font-size:16px;
+            } 
+            @media (max-width: 414px){
+            font-size:14px;
             } 
     }
     

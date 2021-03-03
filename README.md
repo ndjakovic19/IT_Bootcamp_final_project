@@ -3,7 +3,7 @@
 
 1. You will need to install:
     - NodeJS (v14.15.1) - (https://nodejs.org/en/)
-    - npm(v6)package manager za NodeJS
+    - npm(v6) package manager za NodeJS
 
 2. Clone the repository
     - git clone (https://github.com/ndjakovic19/IT_Bootcamp_final_project)

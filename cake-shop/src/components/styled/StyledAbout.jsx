@@ -19,7 +19,7 @@ export const StyledAbout = styled.section`
         @media (max-width: 576px){
          min-height:1px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
            padding:0;
         }
     }
@@ -31,10 +31,13 @@ export const StyledAbout = styled.section`
         padding-left:40px;
         margin-left: 15px;
         margin-right: 15px;
+        @media (max-width: 1024px){
+         margin-right: 15px;
+        }
         @media (max-width: 768px){
            padding:0;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
            margin:0;
         }
     }
@@ -59,7 +62,7 @@ export const StyledAbout = styled.section`
             padding-left:50px;
 
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             width:100%;
             padding:0;
            
@@ -76,7 +79,7 @@ export const StyledAbout = styled.section`
         font-size:40px;
         margin-bottom:5px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             font-size:30px;  
             text-align:center;
           
@@ -92,6 +95,7 @@ export const StyledAbout = styled.section`
         color: #6c757d;
         width:75%;
         margin-bottom:20px;
+
         @media (max-width: 768px){
             margin-bottom:5px;
             width:90%;
@@ -101,10 +105,8 @@ export const StyledAbout = styled.section`
             margin-bottom:5px;
             font-size:14px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             width:100%;
-            text-align: justify;
-            text-justify: inter-word;
           
         }
      }
@@ -124,6 +126,11 @@ export const StyledAbout = styled.section`
             padding:3px;
         }
 
+        @media (max-width: 425px){
+            display:block;
+            margin:0 auto;
+        }
+
         :hover{
             background-color:black;
             color:#ef7998;
@@ -141,7 +148,7 @@ export const StyledAbout = styled.section`
         @media (max-width: 576px){
             padding-top:15px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             width:100%;
             padding-left:60px;
         }
@@ -223,7 +230,7 @@ export const StyledAbout = styled.section`
             border: 2px solid #00000036;
         }
 
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             width: 300px;
             height: 250px;
             border: 2px solid #00000036;

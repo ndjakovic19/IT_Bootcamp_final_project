@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
     padding-right: 15px;
     padding-left: 15px;
     color:#eee;
-    @media (max-width: 576px){
+        @media (max-width: 576px){
             padding:0;
         }
 
@@ -28,7 +28,7 @@ export const StyledFooter = styled.footer`
         @media (max-width: 576px){
             position:relative;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             margin:0;
         }
 
@@ -43,7 +43,7 @@ export const StyledFooter = styled.footer`
     @media (max-width: 576px){
         width:50%;
         }
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         padding-left: 40px;
         padding-top:20px;
         margin-top:20px;
@@ -57,8 +57,8 @@ export const StyledFooter = styled.footer`
        right:25px;
      
     }
-    @media (max-width: 360px){
-       top:160px;
+    @media (max-width: 375px){
+       top:145px;
     }
 }
 
@@ -68,11 +68,16 @@ h4{
     margin-bottom:10px;
     @media (max-width: 375px){
         font-size:14px
+    }
+}
+p{
+    @media (max-width: 375px){
+        font-size:14px
 }
 }
 .info{
     margin-bottom:20px;
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         margin-bottom:15px;  
     }
 } 
@@ -124,9 +129,7 @@ h4{
         }
         @media (max-width: 375px){
          margin-left:5px;
-        }
-        @media (max-width: 375px){
-        font-size:14px
+         font-size:14px
         }
     }
 
@@ -153,7 +156,7 @@ h4{
             @media (max-width: 576px){
                 margin-right:10px;
             }   
-            @media (max-width: 414px){
+            @media (max-width: 425px){
                 margin-right:5px;
             }   
         }

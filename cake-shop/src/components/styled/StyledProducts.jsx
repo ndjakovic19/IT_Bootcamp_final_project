@@ -4,7 +4,7 @@ export const StyledProducts = styled.div`
     width: 100%;
     padding-right: 30px;
     padding-left: 30px;
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         padding-right: 20px;
         padding-left: 20px;
         }  
@@ -19,7 +19,7 @@ export const StyledProducts = styled.div`
     @media (max-width: 768px){
         padding:0;
         }  
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         margin:0;
         }
 }   
@@ -34,7 +34,7 @@ export const StyledProduct = styled.div`
     @media (max-width: 576px){
         width: 50%;
         }
-    @media (max-width: 360px){
+    @media (max-width: 375px){
         width: 100%;
     }
 
@@ -78,10 +78,10 @@ export const StyledProduct = styled.div`
                 height:30px; 
                 padding:5px
             }  
-            @media (max-width: 414px){
+            @media (max-width: 425px){
                 height:25px; 
             } 
-            @media (max-width: 360px){
+            @media (max-width: 375px){
                 height:30px; 
                 padding:5px
             }
@@ -92,10 +92,10 @@ export const StyledProduct = styled.div`
         @media (max-width: 768px){
             font-size:16px;
             } 
-            @media (max-width: 414px){
+            @media (max-width: 425px){
             font-size:14px;
             } 
-            @media (max-width: 360px){
+            @media (max-width: 375px){
                 font-size:20px;
             }
     }
@@ -114,10 +114,10 @@ export const StyledProduct = styled.div`
         @media (max-width: 768px){
             font-size:16px;
             } 
-            @media (max-width: 414px){
+            @media (max-width: 425px){
             font-size:14px;
             } 
-            @media (max-width: 360px){
+            @media (max-width: 375px){
             font-size:16px;
             } 
     }
@@ -128,10 +128,10 @@ export const StyledProduct = styled.div`
         @media (max-width: 768px){
             font-size:16px;
             } 
-            @media (max-width: 414px){
+            @media (max-width: 425  px){
             font-size:14px;
             } 
-            @media (max-width: 360px){
+            @media (max-width: 375px){
             font-size:16px;
             } 
     }

@@ -36,7 +36,7 @@ h2 {
     top: 10px;
     left: 10px;
     position: absolute;
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         width: 70px;
         height: 30px;
         }
@@ -54,7 +54,7 @@ h2 {
     right: 10px;
     bottom: 10px;
     position: absolute;
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         width: 70px;
         height: 30px;
         }
@@ -73,11 +73,19 @@ h2 {
         height: 150px;
         font-size: 30px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
             width: 300px;
             height: 137px;
             font-size: 25px; 
             padding-bottom : 20px;
+
+        }
+        @media (max-width: 375px){
+            width: 300px;
+            height: 100px;
+            font-size: 25px; 
+            padding-bottom : 20px;
+            padding-top : 35px;
 
         }
 }   

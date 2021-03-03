@@ -24,7 +24,7 @@ font-family: "Kaushan Script", cursive;
     @media (max-width: 768px){
         width:400px;
         }
-        @media (max-width: 414px){
+        @media (max-width: 425px){
         width:330px;
         }
         @media (max-width: 375px){

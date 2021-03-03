@@ -8,7 +8,7 @@ export const StyledStore = styled.div`
     padding-left: 15px;
     padding-bottom:50px;
 
-    @media (max-width: 414px){
+    @media (max-width: 425px){
             padding:20px 0;
         }
 
@@ -34,7 +34,7 @@ export const StyledStore = styled.div`
 .button-holder {
     text-align: center;
     margin-top: 25px;
-    @media (max-width: 414px){
+    @media (max-width: 425px){
         margin-top: 5px;
         }
     button {

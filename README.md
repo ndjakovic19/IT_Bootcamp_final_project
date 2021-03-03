@@ -1,11 +1,11 @@
 # Cake Shop
 ## User Guide
 
-- First, you will need to install:
+* First, you will need to install:
     - NodeJS (v14.15.1) - (https://nodejs.org/en/)
     - npm - package manager za NodeJS
 
-- Afterwards, you will need to clone the repository:
+* Afterwards, you will need to clone the repository:
     - git clone (https://github.com/ndjakovic19/IT_Bootcamp_final_project)
     - Go to the root folder and run the following commands:
         - npm install
@@ -26,9 +26,10 @@ Cake shop site is developed as the final project of IT Bootcamp. The site is an 
 - JavaScript
 - React - 17.0.1
     - React Router - 5.2.0.
+    - axios (v0.20.0)
     - styled components - 5.2.1
-    - react-slideshow-image
-    - react-icons--save
+    - react-slideshow-image(v3.4.3)
+    - react-icons--save(v4.2.0)
 - JSON server
 - Git
 - VSCode

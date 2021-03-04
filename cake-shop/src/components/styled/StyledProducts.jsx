@@ -7,7 +7,7 @@ export const StyledProducts = styled.div`
     @media (max-width: 425px){
         padding-right: 20px;
         padding-left: 20px;
-        }  
+    }  
 
 .row {
     display: flex;
@@ -18,10 +18,10 @@ export const StyledProducts = styled.div`
     padding-right:40px;  
     @media (max-width: 768px){
         padding:0;
-        }  
+    }  
     @media (max-width: 425px){
         margin:0;
-        }
+    }
 }   
 `
 export const StyledProduct = styled.div`
@@ -33,7 +33,7 @@ export const StyledProduct = styled.div`
     
     @media (max-width: 576px){
         width: 50%;
-        }
+    }
     @media (max-width: 375px){
         width: 100%;
     }
@@ -91,13 +91,13 @@ export const StyledProduct = styled.div`
         font-size:20px;
         @media (max-width: 768px){
             font-size:16px;
-            } 
-            @media (max-width: 425px){
+        } 
+        @media (max-width: 425px){
             font-size:14px;
-            } 
-            @media (max-width: 375px){
+        } 
+        @media (max-width: 375px){
                 font-size:20px;
-            }
+        }
     }
  
     .card-body{
@@ -127,13 +127,13 @@ export const StyledProduct = styled.div`
         font-size:20px;
         @media (max-width: 768px){
             font-size:16px;
-            } 
-            @media (max-width: 425  px){
+        } 
+        @media (max-width: 425  px){
             font-size:14px;
-            } 
-            @media (max-width: 375px){
+        } 
+        @media (max-width: 375px){
             font-size:16px;
-            } 
+        } 
     }
     
 `

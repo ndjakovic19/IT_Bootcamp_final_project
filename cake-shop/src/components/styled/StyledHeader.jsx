@@ -10,7 +10,7 @@ export const StyledHeader = styled.header`
     @media (max-width: 425px){
         padding:0;
     }
-  }
+}
 .row {
     justify-content: space-between;
     background-color: #f8f9fa;

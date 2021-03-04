@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledRegister = styled.div`
-font-family: "Kaushan Script", cursive;
+    font-family: "Kaushan Script", cursive;
     display: none;
     position: fixed;
     top: 50%;
@@ -20,16 +20,16 @@ font-family: "Kaushan Script", cursive;
     background-size: cover;
     @media (max-width: 992px){
         width:500px;
-        }
+    }
     @media (max-width: 768px){
         width:400px;
-        }
-        @media (max-width: 425px){
+    }
+    @media (max-width: 425px){
         width:330px;
-        }
-        @media (max-width: 375px){
+    }
+    @media (max-width: 375px){
         width:300px;
-        }
+    }
 
     h2{
         text-align:center;
@@ -86,9 +86,9 @@ button{
 }
 
 .x-button-form{
- position:absolute;
- top:10px;
- right:10px;
- font-size:25px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size:25px;
 }
 `

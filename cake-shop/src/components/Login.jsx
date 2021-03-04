@@ -39,6 +39,8 @@ const Login = ({ setUser,openLogin,setOpenLogin}) => {
                             }
                             else {
                                 setError('Information not valid!')
+                                setUsername('')
+                                setPassword('')
                             }
                         })
                     }}>Login</button>

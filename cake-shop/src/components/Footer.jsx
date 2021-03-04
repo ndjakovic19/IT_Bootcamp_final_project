@@ -35,7 +35,7 @@ const Footer = () => {
                                 <h4>Contact us on:</h4>
                                 <ul>
                                     <li>
-                                        <a href="tel:+381669079167" target="_blank" rel="noreferrer"><FaPhoneSquare className="icon" /></a>
+                                        <a href="tel:+ +123 456 789" target="_blank" rel="noreferrer"><FaPhoneSquare className="icon" /></a>
                                     </li>
                                     <li>
                                         <a href="mailto: nevenakovacevic19@gmail.com" target="_blank" rel="noreferrer"><FaEnvelopeSquare className="icon" /></a>

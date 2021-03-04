@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
 
-    background-color: #9d8189;
+background-color: #9d8189;
   
 .container{
     padding-right: 15px;
@@ -23,17 +23,16 @@ export const StyledFooter = styled.footer`
     margin-right: 15px;
 
     @media (max-width: 768px){
-          padding:0;
-        }
-        @media (max-width: 576px){
-            position:relative;
-        }
-        @media (max-width: 425px){
-            margin:0;
-        }
-
-  
+        padding:0;
+    }
+    @media (max-width: 576px){
+        position:relative;
+    }
+    @media (max-width: 425px){
+        margin:0;
+    }
 }
+
 .col-1-3{
     width:33.3%;
     padding-left: 50px;
@@ -42,7 +41,7 @@ export const StyledFooter = styled.footer`
     margin-top:30px;
     @media (max-width: 576px){
         width:50%;
-        }
+     }
     @media (max-width: 425px){
         padding-left: 40px;
         padding-top:20px;
@@ -52,13 +51,12 @@ export const StyledFooter = styled.footer`
 .end-child{
     border:none;
     @media (max-width: 576px){
-       position:absolute;
-       top:167px;
-       right:25px;
-     
+        position:absolute;
+        top:167px;
+        right:25px;
     }
     @media (max-width: 375px){
-       top:145px;
+        top:145px;
     }
 }
 
@@ -73,7 +71,7 @@ h4{
 p{
     @media (max-width: 375px){
         font-size:14px
-}
+    }
 }
 .info{
     margin-bottom:20px;
@@ -90,9 +88,10 @@ p{
         font-size:14px
     }
 }  
+
 .additionally-info{
     @media (max-width: 576px){
-       border:none;
+        border:none;
     }
     @media (max-width: 375px){
         padding-left:20px;
@@ -103,9 +102,8 @@ p{
     display:block;
     margin-bottom:5px;
     color:#eee;
- 
+
     :hover{
-     
         color:#25081270;
         transition: all 0.5s ease-in-out;
     }
@@ -125,11 +123,11 @@ p{
             font-size:16px;
         }
         @media (max-width: 576px){
-         margin-left:20px;
+            margin-left:20px;
         }
         @media (max-width: 375px){
-         margin-left:5px;
-         font-size:14px
+            margin-left:5px;
+            font-size:14px
         }
     }
 
@@ -137,10 +135,10 @@ p{
         margin-left:10px;
 
         @media (max-width: 576px){
-         margin-left:20px;
+            margin-left:20px;
         }
         @media (max-width: 375px){
-         margin-left:5px;
+            margin-left:5px;
         }
     }
 
@@ -148,7 +146,7 @@ p{
         display:inline-block;
     
         a{
-            margin-right:10px;
+             margin-right:10px;
 
             @media (max-width: 768px){
                 margin-right:5px;
@@ -162,26 +160,26 @@ p{
         }
     }
 
-.icon{
-    color:#eee;
-    font-weight: 900;
-    font-size:25px;
+    .icon{
+        color:#eee;
+        font-weight: 900;
+        font-size:25px;
 
-    :hover {
-        transform: scale(1.5);
-    }
-    @media (max-width: 768px){
-        font-size:20px;
-    }  
-    @media (max-width: 576px){
-        font-size:25px;    
+        :hover {
+             transform: scale(1.5);
+        }
+        @media (max-width: 768px){
+            font-size:20px;
         }  
-}
+         @media (max-width: 576px){
+            font-size:25px;    
+        }  
+    }
 
 }
 small {
     display: block;
     text-align: center;
     margin-top:10px;
-    }
+}
 `

@@ -9,8 +9,11 @@ const Register = ({openRegister,setOpenRegister}) => {
     const [password, setPassword] = useState('')
     const [email, setEmail] = useState('')
     const [users, setUsers] = useState([])
-    const [error, setError] = useState('')
+    const[emailError,setEmailError]=useState('')
+    const[passwordError,setPasswordError]=useState('')
+    const[usernameError,setUsernameError]=useState('')
 
+   
     const history = useHistory()
 
     useEffect(() => {
@@ -33,14 +36,14 @@ const Register = ({openRegister,setOpenRegister}) => {
 
 
     const displayError = () => {
-        if (username.length < 4) { setError('Username is too short') }
-        if (users.map(user => user.username).includes(username)) { setError('Username is taken') }
-        if (!regExEmail.test(email)) { setError('Email is invalid') }
-        if (users.map(user => user.email).includes(email)) { setError('Email is already registered') }
-        if (password.length < 8) { setError('Password is too short') }
-        if (!regExLetters.test(password)) { setError('Password must contain at least one letter') }
-        if (!regExNumbers.test(password)) { setError('Password must contain a least one number') }
-    }
+        if (username.length < 4) { setUsernameError('Username is too short')}  
+        if (users.map(user => user.username).includes(username)) {setUsernameError('Username is taken')  } 
+        if (!regExEmail.test(email)) {setEmailError('Email is invalid')  } 
+        if (users.map(user => user.email).includes(email)) { setEmailError('Email is already registered') } 
+        if (password.length < 8) { setPasswordError('Password is too short')  }
+        if (!regExLetters.test(password)) { setPasswordError('Password must contain at least one letter') }  
+        if (!regExNumbers.test(password)) { setPasswordError('Password must contain a least one number') 
+    }} 
 
     return (
         <>
@@ -52,24 +55,29 @@ const Register = ({openRegister,setOpenRegister}) => {
                     <div>
                         <label>Username: </label>
                         <input value={username} type='text' onChange={(e) => setUsername(e.target.value)} />
-                        <p className="error">{error}</p>
+                        <p className="error">{usernameError} </p>
                     </div>
                     <div>
                         <label>Password: </label>
                         <input value={password} type='password' onChange={(e) => setPassword(e.target.value)} />
-                        <p className="error">{error}</p>
+                        <p className="error">{passwordError}</p>
+                      
                     </div>
                     <div>
                         <label>Email: </label>
                         <input value={email} type='text' onChange={(e) => setEmail(e.target.value)} />
-                        <p className="error">{error}</p>
+                        <p className="error">{emailError}</p>
                     </div>
 
 
                     <button onClick={(e) => {
                         e.preventDefault()
                         if (!isValid()) {
+                            setUsername('')
+                            setEmail('')
+                            setPassword('')
                             displayError()
+    
                             return
                         }
                         getAllUsers().then(res => {
@@ -79,7 +87,6 @@ const Register = ({openRegister,setOpenRegister}) => {
                                 })
                             }
                             else {
-                                displayError()
                                 setUsername('')
                                 setEmail('')
                                 setPassword('')
@@ -87,6 +94,7 @@ const Register = ({openRegister,setOpenRegister}) => {
                         })
 
                     }}>Submit</button>
+
                 </div>
             </StyledRegister >
             <Home blur={openRegister}/>

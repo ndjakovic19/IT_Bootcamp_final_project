@@ -9,8 +9,8 @@ export const StyledStore = styled.div`
     padding-bottom:50px;
 
     @media (max-width: 425px){
-            padding:20px 0;
-        }
+        padding:20px 0;
+    }
 
 .title-holder {
     text-align: center;
@@ -36,7 +36,7 @@ export const StyledStore = styled.div`
     margin-top: 25px;
     @media (max-width: 425px){
         margin-top: 5px;
-        }
+    }
     button {
         text-transform: uppercase;
         background-color: transparent;
@@ -55,14 +55,14 @@ export const StyledStore = styled.div`
             padding:3px;
         }
         
-      :hover {
-        background-color: black;
-        color: #ef7998;
-      }
-      :focus {
-        box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
-        outline: 0;
-      }
+        :hover {
+            background-color: black;
+            color: #ef7998;
+        }
+        :focus {
+            box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+            outline: 0;
+        }
     }
 }
 
@@ -71,7 +71,7 @@ export const StyledStore = styled.div`
     margin: 25px auto;
     @media (max-width: 768px){
         width: 50%;
-        }
+    }
 
 .search {
     width: 100%;

@@ -7,38 +7,38 @@ export const StyledAbout = styled.section`
 
     @media (max-width: 768px){
         padding-bottom :20px;
-        }   
+    }   
     @media (max-width: 576px){
             padding-top:15px;;
-        }
+    }
 
     .container {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         @media (max-width: 576px){
-         min-height:1px;
+            min-height:1px;
         }
         @media (max-width: 425px){
-           padding:0;
+            padding:0;
         }
     }
 
     .row {
-
         display: flex;
         flex-wrap: wrap;
         padding-left:40px;
         margin-left: 15px;
         margin-right: 15px;
         @media (max-width: 1024px){
-         margin-right: 15px;
+            margin-right: 170px;
         }
         @media (max-width: 768px){
-           padding:0;
+            padding:0;
+            margin-right: 15px;
         }
         @media (max-width: 425px){
-           margin:0;
+            margin:0;
         }
     }
 
@@ -60,32 +60,27 @@ export const StyledAbout = styled.section`
             padding:0;
             margin: 0 auto;
             padding-left:50px;
-
         }
         @media (max-width: 425px){
             width:100%;
             padding:0;
-           
-            
         }
         
 
-    h1{
-        font-size:50px;
-        text-align:left;
-        margin-bottom:20px;
+        h1{
+            font-size:50px;
+            text-align:left;
+            margin-bottom:20px;
 
         @media (max-width: 768px){
-        font-size:40px;
-        margin-bottom:5px;
+            font-size:40px;
+            margin-bottom:5px;
         }
         @media (max-width: 425px){
             font-size:30px;  
             text-align:center;
-          
         }
-
-      }
+    }
         
     span{
         color:#ef7998;
@@ -109,7 +104,7 @@ export const StyledAbout = styled.section`
             width:100%;
           
         }
-     }
+    }
 
     button{
         text-transform: uppercase;
@@ -162,49 +157,48 @@ export const StyledAbout = styled.section`
         }
         
     
-    :before {
-        content: "";
-        position: absolute;
-        top: -1.5rem;
-        left: -1.7rem;
-        width: 576px;
-        height: 388px;
-        outline: 7px solid #9e9e9e94;
-        z-index: -1;
-        transition: all 1s ease-in-out;
+        :before {
+            content: "";
+            position: absolute;
+            top: -1.5rem;
+            left: -1.7rem;
+            width: 576px;
+            height: 388px;
+            outline: 7px solid #9e9e9e94;
+            z-index: -1;
+            transition: all 1s ease-in-out;
 
          
-        @media (max-width: 1280px){
-            width: 450px;
-            height: 338px; 
+            @media (max-width: 1280px){
+                width: 450px;
+                height: 338px; 
+            }
+            @media (max-width: 1200px){
+                width: 450px;
+                height: 338px; 
+            }
+            @media (max-width: 992px){
+                width: 350px;
+                height: 300px; 
+            }
+            @media (max-width: 768px){
+                width: 300px;
+                height: 250px;
+                top:-1rem;
+                left:-1.2rem;
+            }
+            @media (max-width: 576px){
+                display:none;
+            }
         }
-        @media (max-width: 1200px){
-            width: 450px;
-            height: 338px; 
 
+        :hover:before {
+            top: 0;
+            left: 0;
         }
-        @media (max-width: 992px){
-            width: 350px;
-            height: 300px; 
-        }
-        @media (max-width: 768px){
-            width: 300px;
-            height: 250px;
-            top:-1rem;
-            left:-1.2rem;
-        }
-        @media (max-width: 576px){
-            display:none;
-        }
-    }
-
-    :hover:before {
-        top: 0;
-        left: 0;
-    }
     
 }
-.google-map{
+    .google-map{
         border:none;
           
         @media (max-width: 1280px){
@@ -212,13 +206,12 @@ export const StyledAbout = styled.section`
             height: 338px; 
         }
         @media (max-width: 1200px){
-        width: 450px;
-        height: 338px; 
+            width: 450px;
+            height: 338px; 
         }
         @media (max-width: 992px){
-        width: 350px;
-        height: 300px; 
-
+            width: 350px;
+            height: 300px; 
         }
         @media (max-width: 768px){
             width: 300px;
@@ -239,6 +232,5 @@ export const StyledAbout = styled.section`
      
     }
 
-    
     
 `

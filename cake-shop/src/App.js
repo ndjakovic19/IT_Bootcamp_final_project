@@ -16,12 +16,12 @@ import cart from './images/cart-icon.png'
 const App = () => {
     const [user, setUser] = useState(null);
     const [open, setOpen] = useState(false)
-    const [openLogin,setOpenLogin] = useState(false)
-    const [openRegister,setOpenRegister] = useState(false)
-     return (
+    const [openLogin, setOpenLogin] = useState(false)
+    const [openRegister, setOpenRegister] = useState(false)
+    return (
         <>
-            <Router basename = {process.env.PUBLIC_URL}>
-                <GlobalStyle/>
+            <Router basename={process.env.PUBLIC_URL}>
+                <GlobalStyle />
                 <StyledHeader>
                     <div className="container spikes">
                         <div className="row">
@@ -65,7 +65,7 @@ const App = () => {
                             <FaBars className="burger" onClick={() => setOpen(!open)} />
                             <div className="search-cart-holder">
                                 <div className="search">
-                                    <input type="search" className="input-search"/>
+                                    <input type="search" className="input-search" />
                                     <button className="btn"></button>
                                 </div>
                                 <a href="/home" className="cart">
@@ -89,10 +89,10 @@ const App = () => {
                         <Store user={user} />
                     </Route>
                     <Route exact path="/login">
-                        <Login setUser = {setUser} openLogin={openLogin} setOpenLogin={setOpenLogin}/>
+                        <Login setUser={setUser} openLogin={openLogin} setOpenLogin={setOpenLogin} />
                     </Route>
                     <Route exact path="/register">
-                        <Register setUser={setUser} openRegister={openRegister} setOpenRegister={setOpenRegister}/>
+                        <Register setUser={setUser} openRegister={openRegister} setOpenRegister={setOpenRegister} />
                     </Route>
                 </Switch>
             </Router>

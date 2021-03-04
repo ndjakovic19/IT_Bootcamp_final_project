@@ -1,5 +1,12 @@
 # Cake Shop
-## User Guide
+
+## Description 
+
+Cake shop site is developed as the final project of IT Bootcamp. The site is an web store of a cake shop. You can login and register as a user on the shop. You can use the search function to find your favorite cakes and filter them by your own choice. 
+
+View live [here](https://ndjakovic19.github.io/IT_Bootcamp_final_project/)
+
+## Downloading and Instalation
 
 1. You will need to install:
     - NodeJS (v14.15.1)  (https://nodejs.org/en/)
@@ -17,9 +24,6 @@
 4. After installing, npm start to run the site
     - Open (http://localhost:3000) to view it in the browser.
 
-## Description 
-
-Cake shop site is developed as the final project of IT Bootcamp. The site is an web store of a cake shop. You can login and register as a user on the shop. You can use the search function to find your favorite cakes and filter them by your own choice. 
 
 ## Techologies and Tools
 
